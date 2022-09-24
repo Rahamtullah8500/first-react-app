@@ -1,0 +1,119 @@
+.allcards{
+   float: left;
+   text-align: center;
+   width: 100%;
+   background-color:whitesmoke ;
+   height: 100%;
+}
+
+.file{
+    text-align: center;
+    font-size: 45px;
+    color:rgb(232, 104, 18);
+}
+.drag{
+    text-align: center;
+}
+.form{
+   text-align: center;
+}
+
+.button{
+    padding: 8px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#333;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color:rgb(232, 104, 18);
+}
+
+
+.flip-card{
+    
+    width: 420px;
+    height: 180px;
+    margin-left: 5%;
+    margin-top: 80px;
+    float: left;
+    
+   
+}
+.heading{
+    position: absolute;
+    max-width: 100%;
+    margin-left: 43%;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    color: #001D6E;
+    font-size: 25px;
+    
+}
+
+.flip-card-inner{
+    float: left;
+    position:relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    box-shadow: 5px 30px 15px #a3a2a2;
+
+}
+
+h4 .chain{
+    float: right;
+    color: white;
+    padding: 5px 10px;
+}
+
+h4 .chain:hover{
+   color: rgb(232, 104, 18);
+}
+
+
+
+.flip-card-front h4{
+   background-color: #001D6E;
+    padding: 12px 0px;
+    color: white;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+}
+.flip-card-front h6{
+    padding: 15px 1px;
+    font-size: 15px;
+}
+
+.flip-card-front p{
+    color:black;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iconica{
+   padding: 10px 10px;
+    color: rgb(232, 104, 18);
+}
+
+
+
+.flip-card-front{
+    text-align: left;
+    background-color:#EEF1FF;
+    padding: 5px;
+    font-size: 20px;
+    border:3px solid #333;
+    border-radius: 5px;
+}
+
+.flip-card-front:hover{
+   padding: 0px 0px;
+   cursor: pointer;
+}
+
